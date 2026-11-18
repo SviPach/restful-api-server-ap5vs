@@ -8,6 +8,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Column;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 @Entity
 @Table(name = "users")
@@ -34,6 +36,7 @@ public class MyUser {
         this.phoneNumber = phoneNumber;
     }
 
+    @JsonIgnore
     public boolean isUserDataValid() {
     if (name == null || name.isBlank()) {
         return false;

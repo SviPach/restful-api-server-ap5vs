@@ -32,4 +32,15 @@ public class UserController {
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
+
+    @PostMapping
+    public ResponseEntity<MyUser> createUser(@RequestBody MyUser user) {
+        if (!user.isUserDataValid()) {
+            return ResponseEntity.badRequest().build();
+        }
+
+        MyUser savedUser = userRepository.save(user);
+
+        return ResponseEntity.status(HttpStatus.CREATED).body(savedUser);
+    }
 }
