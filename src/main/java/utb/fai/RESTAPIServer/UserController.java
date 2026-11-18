@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -33,6 +34,19 @@ public class UserController {
         return userRepository.findById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
+    }
+
+    @GetMapping("/search")
+    public List<MyUser> searchUsers(
+            @RequestParam(required = false) String name,
+            @RequestParam(required = false) String email,
+            @RequestParam(required = false) String phoneNumber) {
+
+        return userRepository.findAll().stream()
+                .filter(user -> name == null || user.getName().toLowerCase().contains(name.toLowerCase()))
+                .filter(user -> email == null || user.getEmail().toLowerCase().contains(email.toLowerCase()))
+                .filter(user -> phoneNumber == null || user.getPhoneNumber().contains(phoneNumber))
+                .toList();
     }
 
     @PostMapping
