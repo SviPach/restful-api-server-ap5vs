@@ -1,0 +1,259 @@
+[15:06:53][PluginLoader][WARNING] Plugins directory not found.
+[15:06:53][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/restful-api-server-config/-/raw/main/test-config-6.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[15:06:53][NATTCore][INFO] Working directory path: C:\Users\s_balema.UTB\Documents\restful-api-server
+[15:06:53][NATTCore][INFO] Start loading of the configuration file ...
+[15:06:54][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/restful-api-server-config/-/raw/main/test-config-6.yaml?ref_type=heads)
+[15:06:54][NATTCore][INFO] Configuration loading done
+[15:06:54][NATTCore][INFO] Start building test structure according to the configuration ...
+[15:06:54][NATTCore][INFO] Test structure ...
+[15:06:54][NATTCore][INFO] Test structure building done
+[15:06:54][NATTCore][INFO] Start test executing ...
+[15:06:54][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[15:06:54][NATTCore][INFO] Starts execution on the root keyword  ...
+[15:06:54][MessageBuffer][INFO] Message buffer created for module with name: default
+[15:06:54][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar build/libs/RESTAPIServer-0.0.1-SNAPSHOT.jar
+[15:06:55][ProcessManager][INFO] New PID (13132) added to file
+[15:06:55][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 30000 ms
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  .   ____          _            __ _ _'
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \'
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \'
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' \\/  ___)| |_)| | | | | || (_| |  ) ) ) )'
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  '  |____| .__|_| |_|_| |_\__, | / / / /'
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' =========|_|==============|___/=/_/_/_/'
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' :: Spring Boot ::                (v4.1.2)'
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:56.593+01:00  INFO 13132 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : Starting RestapiServerApplication v0.0.1-SNAPSHOT using Java 25.0.4 with PID 13132 (C:\Users\s_balema.UTB\Documents\restful-api-server\build\libs\RESTAPIServer-0.0.1-SNAPSHOT.jar started by s_balema in C:\Users\s_balema.UTB\Documents\restful-api-server)'
+[15:06:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:56.598+01:00  INFO 13132 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : No active profile set, falling back to 1 default profile: "default"'
+[15:06:57][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:57.633+01:00  INFO 13132 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.'
+[15:06:57][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:57.718+01:00  INFO 13132 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.'
+[15:06:58][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:58.423+01:00  INFO 13132 --- [RESTAPIServer] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)'
+[15:06:58][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:58.444+01:00  INFO 13132 --- [RESTAPIServer] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]'
+[15:06:58][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:58.444+01:00  INFO 13132 --- [RESTAPIServer] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]'
+[15:06:58][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:58.484+01:00  INFO 13132 --- [RESTAPIServer] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1797 ms'
+[15:06:58][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:58.781+01:00  INFO 13132 --- [RESTAPIServer] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]'
+[15:06:58][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:58.860+01:00  INFO 13132 --- [RESTAPIServer] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final'
+[15:06:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:59.634+01:00  INFO 13132 --- [RESTAPIServer] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer'
+[15:06:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:06:59.702+01:00  INFO 13132 --- [RESTAPIServer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:00.495+01:00  INFO 13132 --- [RESTAPIServer] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19647566'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:00.499+01:00  INFO 13132 --- [RESTAPIServer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:00.570+01:00  WARN 13132 --- [RESTAPIServer] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:00.665+01:00  INFO 13132 --- [RESTAPIServer] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Database JDBC URL [jdbc:postgresql://ep-muddy-darkness-bawr242r-pooler.c-8.eu-central-1.aws.neon.tech/neondb?sslmode=require&channelBinding=require]'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Database driver: PostgreSQL JDBC Driver'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Database dialect: PostgreSQLDialect'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Database version: 18.7'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Default catalog/schema: neondb/public'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Autocommit mode: undefined/unknown'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Isolation level: READ_COMMITTED [default READ_COMMITTED]'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	JDBC fetch size: none'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Pool: DataSourceConnectionProvider'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Minimum pool size: undefined/unknown'
+[15:07:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Maximum pool size: undefined/unknown'
+[15:07:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:01.945+01:00  INFO 13132 --- [RESTAPIServer] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)'
+[15:07:02][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:02.055+01:00  INFO 13132 --- [RESTAPIServer] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default''
+[15:07:02][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:02.173+01:00  INFO 13132 --- [RESTAPIServer] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.'
+[15:07:02][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:02.334+01:00  WARN 13132 --- [RESTAPIServer] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning'
+[15:07:02][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:02.780+01:00  INFO 13132 --- [RESTAPIServer] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/''
+[15:07:02][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:02.802+01:00  INFO 13132 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : Started RestapiServerApplication in 6.872 seconds (process running for 7.653)'
+[15:07:02][WaitUntilKw][INFO] Action triggered from module 'default'
+[15:07:02][NATTContext][INFO] Data has been stored in to the variable 'default-action-msg'. Data value: 2026-11-18T15:07:02.802+01:00  INFO 13132 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : Started RestapiServerApplication in 6.872 seconds (process running for 7.653)
+[15:07:02][WaitUntilKw][INFO] Action was invoked. Elapsed time: 7687 ms
+[15:07:02][MessageBuffer][INFO] Message buffer created for module with name: module-1
+[15:07:02][RESTTester][INFO] (module-1) Sending a DELETE request on endpoint: http://localhost:8080/users
+[15:07:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:03.095+01:00  INFO 13132 --- [RESTAPIServer] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet''
+[15:07:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:03.095+01:00  INFO 13132 --- [RESTAPIServer] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet''
+[15:07:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T15:07:03.098+01:00  INFO 13132 --- [RESTAPIServer] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms'
+[15:07:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: delete from users where id=?'
+[15:07:03][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: http://localhost:8080/users ] Content: '[]'
+[15:07:03][MessageBuffer][INFO] Message buffer created for module with name: user-create
+[15:07:03][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele' starts executing now
+[15:07:03][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[15:07:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into users (email,name,phone_number) values (?,?,?)'
+[15:07:03][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: '{"name":"User1","email":"test@email.com","phoneNumber":"+420666555444","id":5}'
+[15:07:03][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 5
+[15:07:03][MessageBuffer][INFO] Message buffer created for module with name: user-get-created
+[15:07:03][RESTTester][INFO] (user-get-created) Sending a GET request on endpoint: http://localhost:8080/users/5
+[15:07:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[15:07:03][MessageBuffer][INFO] Message added to buffer [ Mod: user-get-created | Tag: http://localhost:8080/users/5 ] Content: '{"name":"User1","email":"test@email.com","phoneNumber":"+420666555444","id":5}'
+[15:07:03][TestSuiteKw][INFO] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele' passed
+[15:07:04][MessageBuffer][INFO] Message buffer cleared
+[15:07:04][RESTTester][INFO] (user-get-created) REST tester [user-get-created] terminated
+[15:07:04][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele s neplatným emailem' starts executing now
+[15:07:04][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[15:07:04][RESTTester][WARNING] (user-create) HTTP request returned an error status: 400
+[15:07:04][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 400'
+[15:07:04][TestSuiteKw][INFO] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele s neplatným emailem' passed
+[15:07:04][MessageBuffer][INFO] Message buffer cleared
+[15:07:05][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele s neplatným telefonem' starts executing now
+[15:07:05][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[15:07:05][RESTTester][WARNING] (user-create) HTTP request returned an error status: 400
+[15:07:05][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 400'
+[15:07:05][TestSuiteKw][INFO] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele s neplatným telefonem' passed
+[15:07:05][MessageBuffer][INFO] Message buffer cleared
+[15:07:05][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele s prázdným jménem' starts executing now
+[15:07:05][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[15:07:05][RESTTester][WARNING] (user-create) HTTP request returned an error status: 400
+[15:07:05][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 400'
+[15:07:05][TestSuiteKw][INFO] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele s prázdným jménem' passed
+[15:07:06][MessageBuffer][INFO] Message buffer cleared
+[15:07:06][MessageBuffer][INFO] Message buffer cleared
+[15:07:06][RESTTester][INFO] (user-create) REST tester [user-create] terminated
+[15:07:06][MessageBuffer][INFO] Message buffer created for module with name: search-create
+[15:07:06][MessageBuffer][INFO] Message buffer created for module with name: user-search
+[15:07:06][RESTTester][INFO] (search-create) Sending a POST request on endpoint: http://localhost:8080/users
+[15:07:06][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into users (email,name,phone_number) values (?,?,?)'
+[15:07:06][MessageBuffer][INFO] Message added to buffer [ Mod: search-create | Tag: http://localhost:8080/users ] Content: '{"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6}'
+[15:07:06][NATTContext][INFO] Data has been stored in to the variable 'var-search-alice-id'. Data value: 6
+[15:07:06][RESTTester][INFO] (search-create) Sending a POST request on endpoint: http://localhost:8080/users
+[15:07:06][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into users (email,name,phone_number) values (?,?,?)'
+[15:07:06][MessageBuffer][INFO] Message added to buffer [ Mod: search-create | Tag: http://localhost:8080/users ] Content: '{"name":"SearchBob","email":"bob.search@example.com","phoneNumber":"+420700333444","id":7}'
+[15:07:06][NATTContext][INFO] Data has been stored in to the variable 'var-search-bob-id'. Data value: 7
+[15:07:06][TestSuiteKw][INFO] Test case 'Vyhledávání bez filtrů vrátí všechny uživatele' starts executing now
+[15:07:06][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search
+[15:07:06][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:06][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[{"name":"User1","email":"test@email.com","phoneNumber":"+420666555444","id":5},{"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6},{"name":"SearchBob","email":"bob.search@example.com","phoneNumber":"+420700333444","id":7}]'
+[15:07:06][TestSuiteKw][INFO] Test suite 'Testování vyhledávání uživatelů' - Test case 'Vyhledávání bez filtrů vrátí všechny uživatele' passed
+[15:07:06][MessageBuffer][INFO] Message buffer cleared
+[15:07:07][TestSuiteKw][INFO] Test case 'Filtrování podle jména' starts executing now
+[15:07:07][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search?name=alice
+[15:07:07][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:07][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[{"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6}]'
+[15:07:07][TestSuiteKw][INFO] Test suite 'Testování vyhledávání uživatelů' - Test case 'Filtrování podle jména' passed
+[15:07:07][MessageBuffer][INFO] Message buffer cleared
+[15:07:08][TestSuiteKw][INFO] Test case 'Filtrování podle emailu' starts executing now
+[15:07:08][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search?email=BOB.SEARCH
+[15:07:08][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:08][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[{"name":"SearchBob","email":"bob.search@example.com","phoneNumber":"+420700333444","id":7}]'
+[15:07:08][TestSuiteKw][INFO] Test suite 'Testování vyhledávání uživatelů' - Test case 'Filtrování podle emailu' passed
+[15:07:08][MessageBuffer][INFO] Message buffer cleared
+[15:07:08][TestSuiteKw][INFO] Test case 'Filtrování podle telefonního čísla' starts executing now
+[15:07:08][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search?phoneNumber=111222
+[15:07:08][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:08][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[{"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6}]'
+[15:07:08][TestSuiteKw][INFO] Test suite 'Testování vyhledávání uživatelů' - Test case 'Filtrování podle telefonního čísla' passed
+[15:07:09][MessageBuffer][INFO] Message buffer cleared
+[15:07:09][TestSuiteKw][INFO] Test case 'Kombinace vyhledávacích filtrů' starts executing now
+[15:07:09][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search?name=SearchBob&email=bob.search@example.com&phoneNumber=%2B420700333444
+[15:07:09][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:09][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[{"name":"SearchBob","email":"bob.search@example.com","phoneNumber":"+420700333444","id":7}]'
+[15:07:09][TestSuiteKw][INFO] Test suite 'Testování vyhledávání uživatelů' - Test case 'Kombinace vyhledávacích filtrů' passed
+[15:07:09][MessageBuffer][INFO] Message buffer cleared
+[15:07:10][TestSuiteKw][INFO] Test case 'Vyhledávání bez výsledků' starts executing now
+[15:07:10][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search?name=missing-user
+[15:07:10][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:10][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[]'
+[15:07:10][TestSuiteKw][INFO] Test suite 'Testování vyhledávání uživatelů' - Test case 'Vyhledávání bez výsledků' passed
+[15:07:10][MessageBuffer][INFO] Message buffer cleared
+[15:07:11][MessageBuffer][INFO] Message buffer cleared
+[15:07:11][RESTTester][INFO] (search-create) REST tester [search-create] terminated
+[15:07:11][RESTTester][INFO] (user-search) REST tester [user-search] terminated
+[15:07:11][MessageBuffer][INFO] Message buffer created for module with name: user-all
+[15:07:11][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele' starts executing now
+[15:07:11][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[15:07:11][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:11][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[{"name":"User1","email":"test@email.com","phoneNumber":"+420666555444","id":5},{"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6},{"name":"SearchBob","email":"bob.search@example.com","phoneNumber":"+420700333444","id":7}]'
+[15:07:11][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: {"name":"User1","email":"test@email.com","phoneNumber":"+420666555444","id":5}
+[15:07:11][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 5
+[15:07:11][MessageBuffer][INFO] Message buffer created for module with name: user-edit-success
+[15:07:11][RESTTester][INFO] (user-edit-success) Sending a PUT request on endpoint: http://localhost:8080/users/5
+[15:07:11][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[15:07:11][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: update users set email=?,name=?,phone_number=? where id=?'
+[15:07:11][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit-success | Tag: http://localhost:8080/users/5 ] Content: '{"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","id":5}'
+[15:07:11][MessageBuffer][INFO] Message buffer created for module with name: user-get-updated
+[15:07:11][RESTTester][INFO] (user-get-updated) Sending a GET request on endpoint: http://localhost:8080/users/5
+[15:07:11][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[15:07:11][MessageBuffer][INFO] Message added to buffer [ Mod: user-get-updated | Tag: http://localhost:8080/users/5 ] Content: '{"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","id":5}'
+[15:07:11][TestSuiteKw][INFO] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele' passed
+[15:07:11][MessageBuffer][INFO] Message buffer cleared
+[15:07:11][RESTTester][INFO] (user-edit-success) REST tester [user-edit-success] terminated
+[15:07:11][RESTTester][INFO] (user-get-updated) REST tester [user-get-updated] terminated
+[15:07:12][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele s neplatnými údaji 1' starts executing now
+[15:07:12][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[15:07:12][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:12][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[{"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6},{"name":"SearchBob","email":"bob.search@example.com","phoneNumber":"+420700333444","id":7},{"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","id":5}]'
+[15:07:12][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: {"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6}
+[15:07:12][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 6
+[15:07:12][MessageBuffer][INFO] Message buffer created for module with name: user-edit-invalid-email
+[15:07:12][RESTTester][INFO] (user-edit-invalid-email) Sending a PUT request on endpoint: http://localhost:8080/users/6
+[15:07:12][RESTTester][WARNING] (user-edit-invalid-email) HTTP request returned an error status: 400
+[15:07:12][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit-invalid-email | Tag: http://localhost:8080/users/6 ] Content: 'ERROR: 400'
+[15:07:12][TestSuiteKw][INFO] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele s neplatnými údaji 1' passed
+[15:07:12][MessageBuffer][INFO] Message buffer cleared
+[15:07:12][RESTTester][INFO] (user-edit-invalid-email) REST tester [user-edit-invalid-email] terminated
+[15:07:12][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele s neplatnými údaji 2' starts executing now
+[15:07:12][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[15:07:12][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:12][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[{"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6},{"name":"SearchBob","email":"bob.search@example.com","phoneNumber":"+420700333444","id":7},{"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","id":5}]'
+[15:07:12][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: {"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6}
+[15:07:12][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 6
+[15:07:12][MessageBuffer][INFO] Message buffer created for module with name: user-edit-invalid-name
+[15:07:12][RESTTester][INFO] (user-edit-invalid-name) Sending a PUT request on endpoint: http://localhost:8080/users/6
+[15:07:12][RESTTester][WARNING] (user-edit-invalid-name) HTTP request returned an error status: 400
+[15:07:12][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit-invalid-name | Tag: http://localhost:8080/users/6 ] Content: 'ERROR: 400'
+[15:07:12][TestSuiteKw][INFO] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele s neplatnými údaji 2' passed
+[15:07:12][MessageBuffer][INFO] Message buffer cleared
+[15:07:12][RESTTester][INFO] (user-edit-invalid-name) REST tester [user-edit-invalid-name] terminated
+[15:07:13][MessageBuffer][INFO] Message buffer cleared
+[15:07:13][RESTTester][INFO] (user-all) REST tester [user-all] terminated
+[15:07:13][MessageBuffer][INFO] Message buffer created for module with name: user-delete-all
+[15:07:13][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into users (email,name,phone_number) values (?,?,?)'
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: '{"name":"TestUser1","email":"test1@email.com","phoneNumber":"+420777666555","id":8}'
+[15:07:13][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: insert into users (email,name,phone_number) values (?,?,?)'
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: '{"name":"TestUser2","email":"test2@email.com","phoneNumber":"+420777666555","id":9}'
+[15:07:13][TestSuiteKw][INFO] Test case 'Test odstranění jednoho uživatele' starts executing now
+[15:07:13][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[{"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6},{"name":"SearchBob","email":"bob.search@example.com","phoneNumber":"+420700333444","id":7},{"name":"updated","email":"updated@email.com","phoneNumber":"+420777666444","id":5},{"name":"TestUser1","email":"test1@email.com","phoneNumber":"+420777666555","id":8},{"name":"TestUser2","email":"test2@email.com","phoneNumber":"+420777666555","id":9}]'
+[15:07:13][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: {"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6}
+[15:07:13][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 6
+[15:07:13][MessageBuffer][INFO] Message buffer created for module with name: user-delete-one
+[15:07:13][RESTTester][INFO] (user-delete-one) Sending a DELETE request on endpoint: http://localhost:8080/users/6
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: delete from users where id=?'
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: user-delete-one | Tag: http://localhost:8080/users/6 ] Content: '{"name":"SearchAlice","email":"alice.search@example.com","phoneNumber":"+420700111222","id":6}'
+[15:07:13][MessageBuffer][INFO] Message buffer created for module with name: user-get-deleted
+[15:07:13][RESTTester][INFO] (user-get-deleted) Sending a GET request on endpoint: http://localhost:8080/users/6
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[15:07:13][RESTTester][WARNING] (user-get-deleted) HTTP request returned an error status: 404
+[15:07:13][MessageBuffer][INFO] Message added to buffer [ Mod: user-get-deleted | Tag: http://localhost:8080/users/6 ] Content: 'ERROR: 404'
+[15:07:13][TestSuiteKw][INFO] Test suite 'Testování požadavků pro odstranění' - Test case 'Test odstranění jednoho uživatele' passed
+[15:07:14][MessageBuffer][INFO] Message buffer cleared
+[15:07:14][RESTTester][INFO] (user-delete-one) REST tester [user-delete-one] terminated
+[15:07:14][RESTTester][INFO] (user-get-deleted) REST tester [user-get-deleted] terminated
+[15:07:14][TestSuiteKw][INFO] Test case 'Test odstranění všech uživatelů' starts executing now
+[15:07:14][RESTTester][INFO] (user-delete-all) Sending a DELETE request on endpoint: http://localhost:8080/users
+[15:07:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: delete from users where id=?'
+[15:07:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: delete from users where id=?'
+[15:07:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: delete from users where id=?'
+[15:07:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: delete from users where id=?'
+[15:07:14][MessageBuffer][INFO] Message added to buffer [ Mod: user-delete-all | Tag: http://localhost:8080/users ] Content: '[]'
+[15:07:14][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[15:07:14][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[15:07:14][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[]'
+[15:07:14][TestSuiteKw][INFO] Test suite 'Testování požadavků pro odstranění' - Test case 'Test odstranění všech uživatelů' passed
+[15:07:14][MessageBuffer][INFO] Message buffer cleared
+[15:07:15][MessageBuffer][INFO] Message buffer cleared
+[15:07:15][RESTTester][INFO] (user-delete-all) REST tester [user-delete-all] terminated
+[15:07:15][RESTTester][INFO] (user-all) REST tester [user-all] terminated
+[15:07:15][RESTTester][INFO] (user-create) REST tester [user-create] terminated
+[15:07:15][MessageBuffer][INFO] Message buffer cleared
+[15:07:15][ExternalProgramRunner][INFO] (default) Termiting external application
+[15:07:15][ProcessManager][INFO] PID (13132) removed from file
+[15:07:15][RESTTester][INFO] (module-1) REST tester [module-1] terminated
+[15:07:15][NATTCore][INFO] Test executing finished
+[15:07:15][NATTCore][INFO] Start generating test report
+[15:07:15][ProcessManager][INFO] PID (13132) removed from file
+[15:07:15][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[15:07:15][TestReportGenerator][INFO] Report saved to file
+[15:07:15][NATTCore][INFO] All test cases passed.
+[15:07:15][NATTCore][INFO] Final score: 9,000000
+[15:07:15][NATTCore][INFO] Testing done. Leaving status: PASSED

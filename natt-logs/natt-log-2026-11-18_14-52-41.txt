@@ -1,0 +1,739 @@
+[14:52:41][PluginLoader][WARNING] Plugins directory not found.
+[14:52:41][ProcessManager][WARNING] Failed to read PIDs: pid-list.txt (Systém nemůže nalézt uvedený soubor)
+[14:52:41][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/restful-api-server-config/-/raw/main/test-config-6.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[14:52:41][NATTCore][INFO] Working directory path: C:\Users\s_balema.UTB\Documents\restful-api-server
+[14:52:41][NATTCore][INFO] Start loading of the configuration file ...
+[14:52:42][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/restful-api-server-config/-/raw/main/test-config-6.yaml?ref_type=heads)
+[14:52:42][NATTCore][INFO] Configuration loading done
+[14:52:42][NATTCore][INFO] Start building test structure according to the configuration ...
+[14:52:42][NATTCore][INFO] Test structure ...
+[14:52:42][NATTCore][INFO] Test structure building done
+[14:52:42][NATTCore][INFO] Start test executing ...
+[14:52:43][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[14:52:43][NATTCore][INFO] Starts execution on the root keyword  ...
+[14:52:43][MessageBuffer][INFO] Message buffer created for module with name: default
+[14:52:43][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar build/libs/RESTAPIServer-0.0.1-SNAPSHOT.jar
+[14:52:43][ProcessManager][INFO] New PID (4448) added to file
+[14:52:43][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 30000 ms
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  .   ____          _            __ _ _'
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \'
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \'
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' \\/  ___)| |_)| | | | | || (_| |  ) ) ) )'
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  '  |____| .__|_| |_|_| |_\__, | / / / /'
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' =========|_|==============|___/=/_/_/_/'
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' :: Spring Boot ::                (v4.1.2)'
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:44.918+01:00  INFO 4448 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : Starting RestapiServerApplication v0.0.1-SNAPSHOT using Java 25.0.4 with PID 4448 (C:\Users\s_balema.UTB\Documents\restful-api-server\build\libs\RESTAPIServer-0.0.1-SNAPSHOT.jar started by s_balema in C:\Users\s_balema.UTB\Documents\restful-api-server)'
+[14:52:44][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:44.924+01:00  INFO 4448 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : No active profile set, falling back to 1 default profile: "default"'
+[14:52:46][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:46.465+01:00  INFO 4448 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.'
+[14:52:46][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:46.586+01:00  INFO 4448 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interface.'
+[14:52:47][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:47.439+01:00  INFO 4448 --- [RESTAPIServer] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)'
+[14:52:47][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:47.473+01:00  INFO 4448 --- [RESTAPIServer] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]'
+[14:52:47][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:47.474+01:00  INFO 4448 --- [RESTAPIServer] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]'
+[14:52:47][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:47.530+01:00  INFO 4448 --- [RESTAPIServer] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2491 ms'
+[14:52:47][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:47.831+01:00  INFO 4448 --- [RESTAPIServer] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]'
+[14:52:47][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:47.961+01:00  INFO 4448 --- [RESTAPIServer] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final'
+[14:52:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:48.842+01:00  INFO 4448 --- [RESTAPIServer] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer'
+[14:52:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:48.908+01:00  INFO 4448 --- [RESTAPIServer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:49.580+01:00  INFO 4448 --- [RESTAPIServer] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19647566'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:49.583+01:00  INFO 4448 --- [RESTAPIServer] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:49.665+01:00  WARN 4448 --- [RESTAPIServer] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:49.767+01:00  INFO 4448 --- [RESTAPIServer] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Database JDBC URL [jdbc:postgresql://ep-muddy-darkness-bawr242r-pooler.c-8.eu-central-1.aws.neon.tech/neondb?sslmode=require&channelBinding=require]'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Database driver: PostgreSQL JDBC Driver'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Database dialect: PostgreSQLDialect'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Database version: 18.7'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Default catalog/schema: neondb/public'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Autocommit mode: undefined/unknown'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Isolation level: READ_COMMITTED [default READ_COMMITTED]'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	JDBC fetch size: none'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Pool: DataSourceConnectionProvider'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Minimum pool size: undefined/unknown'
+[14:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	Maximum pool size: undefined/unknown'
+[14:52:51][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:51.282+01:00  INFO 4448 --- [RESTAPIServer] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)'
+[14:52:51][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:51.403+01:00  INFO 4448 --- [RESTAPIServer] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default''
+[14:52:51][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:51.643+01:00  INFO 4448 --- [RESTAPIServer] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.'
+[14:52:51][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:51.843+01:00  WARN 4448 --- [RESTAPIServer] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning'
+[14:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:52.415+01:00  INFO 4448 --- [RESTAPIServer] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/''
+[14:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:52.437+01:00  INFO 4448 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : Started RestapiServerApplication in 8.29 seconds (process running for 9.159)'
+[14:52:52][WaitUntilKw][INFO] Action triggered from module 'default'
+[14:52:52][NATTContext][INFO] Data has been stored in to the variable 'default-action-msg'. Data value: 2026-11-18T14:52:52.437+01:00  INFO 4448 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : Started RestapiServerApplication in 8.29 seconds (process running for 9.159)
+[14:52:52][WaitUntilKw][INFO] Action was invoked. Elapsed time: 9249 ms
+[14:52:52][MessageBuffer][INFO] Message buffer created for module with name: module-1
+[14:52:52][RESTTester][INFO] (module-1) Sending a DELETE request on endpoint: http://localhost:8080/users
+[14:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:52.756+01:00  INFO 4448 --- [RESTAPIServer] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet''
+[14:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:52.756+01:00  INFO 4448 --- [RESTAPIServer] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet''
+[14:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:52.759+01:00  INFO 4448 --- [RESTAPIServer] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: http://localhost:8080/users ] Content: '[]'
+[14:52:53][MessageBuffer][INFO] Message buffer created for module with name: user-create
+[14:52:53][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele' starts executing now
+[14:52:53][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:53.413+01:00 ERROR 4448 --- [RESTAPIServer] [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was already updated or deleted by another transaction for entity [utb.fai.RESTAPIServer.MyUser with id '0']] with root cause'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'org.hibernate.StaleObjectStateException: Row was already updated or deleted by another transaction for entity [utb.fai.RESTAPIServer.MyUser with id '0']'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:460) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:193) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:137) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:121) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:78) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:817) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:802) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy112.merge(Unknown Source) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:239) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:393) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy112.merge(Unknown Source) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:667) ~[spring-data-jpa-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.1.2.jar!/:4.1.2]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:219) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at utb.fai.RESTAPIServer.UserController.createUser(UserController.java:58) ~[!/:0.0.1-SNAPSHOT]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.27.jar!/:6.1]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.27.jar!/:6.1]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][RESTTester][WARNING] (user-create) HTTP request returned an error status: 500
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 500'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]'
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:52:53][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 
+[14:52:53][MessageBuffer][INFO] Message buffer created for module with name: user-get-created
+[14:52:53][RESTTester][INFO] (user-get-created) Sending a GET request on endpoint: http://localhost:8080/users/
+[14:52:53][RESTTester][WARNING] (user-get-created) HTTP request returned an error status: 404
+[14:52:53][MessageBuffer][INFO] Message added to buffer [ Mod: user-get-created | Tag: http://localhost:8080/users/ ] Content: 'ERROR: 404'
+[14:52:53][AssertJsonKw][WARNING] Error parsing JSON: Unexpected character (',' (code 44)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"{"id": , "name": "User1", "email": "test@email.com", "phoneNumber": "+420666555444"}"; line: 1, column: 9]
+[14:52:53][AssertJsonKw][WARNING] Assertion failed. True was expected as the result. Condition: (Expected JSON '{"id": , "name": "User1", "email": "test@email.com", "phoneNumber": "+420666555444"}' must be same as the JSON in the variable 'ERROR: 404')
+[14:52:53][TestSuiteKw][ERROR] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele' failed
+[14:52:53][MessageBuffer][INFO] Message buffer cleared
+[14:52:53][RESTTester][INFO] (user-get-created) REST tester [user-get-created] terminated
+[14:52:54][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele s neplatným emailem' starts executing now
+[14:52:54][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[14:52:54][RESTTester][WARNING] (user-create) HTTP request returned an error status: 400
+[14:52:54][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 400'
+[14:52:54][TestSuiteKw][INFO] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele s neplatným emailem' passed
+[14:52:54][MessageBuffer][INFO] Message buffer cleared
+[14:52:55][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele s neplatným telefonem' starts executing now
+[14:52:55][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[14:52:55][RESTTester][WARNING] (user-create) HTTP request returned an error status: 400
+[14:52:55][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 400'
+[14:52:55][TestSuiteKw][INFO] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele s neplatným telefonem' passed
+[14:52:55][MessageBuffer][INFO] Message buffer cleared
+[14:52:55][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele s prázdným jménem' starts executing now
+[14:52:55][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[14:52:55][RESTTester][WARNING] (user-create) HTTP request returned an error status: 400
+[14:52:55][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 400'
+[14:52:55][TestSuiteKw][INFO] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele s prázdným jménem' passed
+[14:52:55][MessageBuffer][INFO] Message buffer cleared
+[14:52:56][MessageBuffer][INFO] Message buffer cleared
+[14:52:56][RESTTester][INFO] (user-create) REST tester [user-create] terminated
+[14:52:56][MessageBuffer][INFO] Message buffer created for module with name: search-create
+[14:52:56][MessageBuffer][INFO] Message buffer created for module with name: user-search
+[14:52:56][RESTTester][INFO] (search-create) Sending a POST request on endpoint: http://localhost:8080/users
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:56.684+01:00 ERROR 4448 --- [RESTAPIServer] [nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was already updated or deleted by another transaction for entity [utb.fai.RESTAPIServer.MyUser with id '0']] with root cause'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'org.hibernate.StaleObjectStateException: Row was already updated or deleted by another transaction for entity [utb.fai.RESTAPIServer.MyUser with id '0']'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:460) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:193) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:137) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:121) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:78) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:817) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:802) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy112.merge(Unknown Source) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:239) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:393) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy112.merge(Unknown Source) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:667) ~[spring-data-jpa-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:219) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at utb.fai.RESTAPIServer.UserController.createUser(UserController.java:58) ~[!/:0.0.1-SNAPSHOT]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][RESTTester][WARNING] (search-create) HTTP request returned an error status: 500
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: search-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 500'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][NATTContext][INFO] Data has been stored in to the variable 'var-search-alice-id'. Data value: 
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.27.jar!/:6.1]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][RESTTester][INFO] (search-create) Sending a POST request on endpoint: http://localhost:8080/users
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.27.jar!/:6.1]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:52:56.780+01:00 ERROR 4448 --- [RESTAPIServer] [nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was already updated or deleted by another transaction for entity [utb.fai.RESTAPIServer.MyUser with id '0']] with root cause'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'org.hibernate.StaleObjectStateException: Row was already updated or deleted by another transaction for entity [utb.fai.RESTAPIServer.MyUser with id '0']'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:460) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:193) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:137) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:121) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:78) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:817) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:802) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy112.merge(Unknown Source) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:239) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:393) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy112.merge(Unknown Source) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:667) ~[spring-data-jpa-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.1.2.jar!/:4.1.2]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:219) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at utb.fai.RESTAPIServer.UserController.createUser(UserController.java:58) ~[!/:0.0.1-SNAPSHOT]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][RESTTester][WARNING] (search-create) HTTP request returned an error status: 500
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: search-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 500'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][NATTContext][INFO] Data has been stored in to the variable 'var-search-bob-id'. Data value: 
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.27.jar!/:6.1]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:52:56][TestSuiteKw][INFO] Test case 'Vyhledávání bez filtrů vrátí všechny uživatele' starts executing now
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.27.jar!/:6.1]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:52:56][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[]'
+[14:52:56][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable '[]' must contains expected text 'SearchAlice')
+[14:52:56][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable '[]' must contains expected text 'SearchBob')
+[14:52:56][TestSuiteKw][ERROR] Test suite 'Testování vyhledávání uživatelů' - Test case 'Vyhledávání bez filtrů vrátí všechny uživatele' failed
+[14:52:57][MessageBuffer][INFO] Message buffer cleared
+[14:52:57][TestSuiteKw][INFO] Test case 'Filtrování podle jména' starts executing now
+[14:52:57][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search?name=alice
+[14:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[]'
+[14:52:57][AssertJsonKw][WARNING] Error parsing JSON: Unexpected character (',' (code 44)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"[{"id": , "name": "SearchAlice", "email": "alice.search@example.com", "phoneNumber": "+420700111222"}]"; line: 1, column: 10]
+[14:52:57][AssertJsonKw][WARNING] Assertion failed. True was expected as the result. Condition: (Expected JSON '[{"id": , "name": "SearchAlice", "email": "alice.search@example.com", "phoneNumber": "+420700111222"}]' must be same as the JSON in the variable '[]')
+[14:52:57][TestSuiteKw][ERROR] Test suite 'Testování vyhledávání uživatelů' - Test case 'Filtrování podle jména' failed
+[14:52:57][MessageBuffer][INFO] Message buffer cleared
+[14:52:58][TestSuiteKw][INFO] Test case 'Filtrování podle emailu' starts executing now
+[14:52:58][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search?email=BOB.SEARCH
+[14:52:58][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:52:58][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[]'
+[14:52:58][AssertJsonKw][WARNING] Error parsing JSON: Unexpected character (',' (code 44)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"[{"id": , "name": "SearchBob", "email": "bob.search@example.com", "phoneNumber": "+420700333444"}]"; line: 1, column: 10]
+[14:52:58][AssertJsonKw][WARNING] Assertion failed. True was expected as the result. Condition: (Expected JSON '[{"id": , "name": "SearchBob", "email": "bob.search@example.com", "phoneNumber": "+420700333444"}]' must be same as the JSON in the variable '[]')
+[14:52:58][TestSuiteKw][ERROR] Test suite 'Testování vyhledávání uživatelů' - Test case 'Filtrování podle emailu' failed
+[14:52:58][MessageBuffer][INFO] Message buffer cleared
+[14:52:58][TestSuiteKw][INFO] Test case 'Filtrování podle telefonního čísla' starts executing now
+[14:52:58][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search?phoneNumber=111222
+[14:52:58][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:52:58][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[]'
+[14:52:58][AssertJsonKw][WARNING] Error parsing JSON: Unexpected character (',' (code 44)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"[{"id": , "name": "SearchAlice", "email": "alice.search@example.com", "phoneNumber": "+420700111222"}]"; line: 1, column: 10]
+[14:52:58][AssertJsonKw][WARNING] Assertion failed. True was expected as the result. Condition: (Expected JSON '[{"id": , "name": "SearchAlice", "email": "alice.search@example.com", "phoneNumber": "+420700111222"}]' must be same as the JSON in the variable '[]')
+[14:52:58][TestSuiteKw][ERROR] Test suite 'Testování vyhledávání uživatelů' - Test case 'Filtrování podle telefonního čísla' failed
+[14:52:59][MessageBuffer][INFO] Message buffer cleared
+[14:52:59][TestSuiteKw][INFO] Test case 'Kombinace vyhledávacích filtrů' starts executing now
+[14:52:59][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search?name=SearchBob&email=bob.search@example.com&phoneNumber=%2B420700333444
+[14:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[]'
+[14:52:59][AssertJsonKw][WARNING] Error parsing JSON: Unexpected character (',' (code 44)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"[{"id": , "name": "SearchBob", "email": "bob.search@example.com", "phoneNumber": "+420700333444"}]"; line: 1, column: 10]
+[14:52:59][AssertJsonKw][WARNING] Assertion failed. True was expected as the result. Condition: (Expected JSON '[{"id": , "name": "SearchBob", "email": "bob.search@example.com", "phoneNumber": "+420700333444"}]' must be same as the JSON in the variable '[]')
+[14:52:59][TestSuiteKw][ERROR] Test suite 'Testování vyhledávání uživatelů' - Test case 'Kombinace vyhledávacích filtrů' failed
+[14:52:59][MessageBuffer][INFO] Message buffer cleared
+[14:53:00][TestSuiteKw][INFO] Test case 'Vyhledávání bez výsledků' starts executing now
+[14:53:00][RESTTester][INFO] (user-search) Sending a GET request on endpoint: http://localhost:8080/users/search?name=missing-user
+[14:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:53:00][MessageBuffer][INFO] Message added to buffer [ Mod: user-search | Tag: http://localhost:8080/users/search ] Content: '[]'
+[14:53:00][TestSuiteKw][INFO] Test suite 'Testování vyhledávání uživatelů' - Test case 'Vyhledávání bez výsledků' passed
+[14:53:00][MessageBuffer][INFO] Message buffer cleared
+[14:53:01][MessageBuffer][INFO] Message buffer cleared
+[14:53:01][RESTTester][INFO] (search-create) REST tester [search-create] terminated
+[14:53:01][RESTTester][INFO] (user-search) REST tester [user-search] terminated
+[14:53:01][MessageBuffer][INFO] Message buffer created for module with name: user-all
+[14:53:01][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele' starts executing now
+[14:53:01][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[14:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[]'
+[14:53:01][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: 
+[14:53:01][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 
+[14:53:01][MessageBuffer][INFO] Message buffer created for module with name: user-edit-success
+[14:53:01][RESTTester][INFO] (user-edit-success) Sending a PUT request on endpoint: http://localhost:8080/users/
+[14:53:01][RESTTester][WARNING] (user-edit-success) HTTP request returned an error status: 404
+[14:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit-success | Tag: http://localhost:8080/users/ ] Content: 'ERROR: 404'
+[14:53:01][MessageBuffer][INFO] Message buffer created for module with name: user-get-updated
+[14:53:01][RESTTester][INFO] (user-get-updated) Sending a GET request on endpoint: http://localhost:8080/users/
+[14:53:01][RESTTester][WARNING] (user-get-updated) HTTP request returned an error status: 404
+[14:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: user-get-updated | Tag: http://localhost:8080/users/ ] Content: 'ERROR: 404'
+[14:53:01][AssertJsonKw][WARNING] Error parsing JSON: Unexpected character (',' (code 44)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"{"id": , "name": "updated", "email": "updated@email.com", "phoneNumber": "+420777666444"}"; line: 1, column: 9]
+[14:53:01][AssertJsonKw][WARNING] Assertion failed. True was expected as the result. Condition: (Expected JSON '{"id": , "name": "updated", "email": "updated@email.com", "phoneNumber": "+420777666444"}' must be same as the JSON in the variable 'ERROR: 404')
+[14:53:01][TestSuiteKw][ERROR] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele' failed
+[14:53:01][MessageBuffer][INFO] Message buffer cleared
+[14:53:01][RESTTester][INFO] (user-edit-success) REST tester [user-edit-success] terminated
+[14:53:01][RESTTester][INFO] (user-get-updated) REST tester [user-get-updated] terminated
+[14:53:01][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele s neplatnými údaji 1' starts executing now
+[14:53:01][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[14:53:01][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[]'
+[14:53:02][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: 
+[14:53:02][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 
+[14:53:02][MessageBuffer][INFO] Message buffer created for module with name: user-edit-invalid-email
+[14:53:02][RESTTester][INFO] (user-edit-invalid-email) Sending a PUT request on endpoint: http://localhost:8080/users/
+[14:53:02][RESTTester][WARNING] (user-edit-invalid-email) HTTP request returned an error status: 404
+[14:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit-invalid-email | Tag: http://localhost:8080/users/ ] Content: 'ERROR: 404'
+[14:53:02][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable 'ERROR: 404' must contains expected text 'ERROR: 400')
+[14:53:02][TestSuiteKw][ERROR] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele s neplatnými údaji 1' failed
+[14:53:02][MessageBuffer][INFO] Message buffer cleared
+[14:53:02][RESTTester][INFO] (user-edit-invalid-email) REST tester [user-edit-invalid-email] terminated
+[14:53:02][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele s neplatnými údaji 2' starts executing now
+[14:53:02][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[14:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[]'
+[14:53:02][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: 
+[14:53:02][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 
+[14:53:02][MessageBuffer][INFO] Message buffer created for module with name: user-edit-invalid-name
+[14:53:02][RESTTester][INFO] (user-edit-invalid-name) Sending a PUT request on endpoint: http://localhost:8080/users/
+[14:53:02][RESTTester][WARNING] (user-edit-invalid-name) HTTP request returned an error status: 404
+[14:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit-invalid-name | Tag: http://localhost:8080/users/ ] Content: 'ERROR: 404'
+[14:53:02][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable 'ERROR: 404' must contains expected text 'ERROR: 400')
+[14:53:02][TestSuiteKw][ERROR] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele s neplatnými údaji 2' failed
+[14:53:02][MessageBuffer][INFO] Message buffer cleared
+[14:53:02][RESTTester][INFO] (user-edit-invalid-name) REST tester [user-edit-invalid-name] terminated
+[14:53:03][MessageBuffer][INFO] Message buffer cleared
+[14:53:03][RESTTester][INFO] (user-all) REST tester [user-all] terminated
+[14:53:03][MessageBuffer][INFO] Message buffer created for module with name: user-delete-all
+[14:53:03][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:53:03.635+01:00 ERROR 4448 --- [RESTAPIServer] [nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was already updated or deleted by another transaction for entity [utb.fai.RESTAPIServer.MyUser with id '0']] with root cause'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'org.hibernate.StaleObjectStateException: Row was already updated or deleted by another transaction for entity [utb.fai.RESTAPIServer.MyUser with id '0']'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:460) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:193) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:137) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:121) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:78) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:817) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:802) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy112.merge(Unknown Source) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:239) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:393) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy112.merge(Unknown Source) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:667) ~[spring-data-jpa-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:219) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at utb.fai.RESTAPIServer.UserController.createUser(UserController.java:58) ~[!/:0.0.1-SNAPSHOT]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][RESTTester][WARNING] (user-create) HTTP request returned an error status: 500
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.27.jar!/:6.1]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 500'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.27.jar!/:6.1]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/users
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0 where mu1_0.id=?'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2026-11-18T14:53:03.710+01:00 ERROR 4448 --- [RESTAPIServer] [io-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was already updated or deleted by another transaction for entity [utb.fai.RESTAPIServer.MyUser with id '0']] with root cause'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'org.hibernate.StaleObjectStateException: Row was already updated or deleted by another transaction for entity [utb.fai.RESTAPIServer.MyUser with id '0']'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:460) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:193) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:137) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:121) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:78) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:817) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:802) ~[hibernate-core-7.4.13.Final.jar!/:7.4.13.Final]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy112.merge(Unknown Source) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:239) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:393) ~[spring-orm-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy112.merge(Unknown Source) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:667) ~[spring-data-jpa-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.1.2.jar!/:4.1.2]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:219) ~[spring-aop-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at utb.fai.RESTAPIServer.UserController.createUser(UserController.java:58) ~[!/:0.0.1-SNAPSHOT]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][RESTTester][WARNING] (user-create) HTTP request returned an error status: 500
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/users ] Content: 'ERROR: 500'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][TestSuiteKw][INFO] Test case 'Test odstranění jednoho uživatele' starts executing now
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.27.jar!/:6.1]'
+[14:53:03][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.27.jar!/:6.1]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: 
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message buffer created for module with name: user-delete-one
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][RESTTester][INFO] (user-delete-one) Sending a DELETE request on endpoint: http://localhost:8080/users/
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar!/:7.0.10]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][RESTTester][WARNING] (user-delete-one) HTTP request returned an error status: 404
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: user-delete-one | Tag: http://localhost:8080/users/ ] Content: 'ERROR: 404'
+[14:53:03][MessageBuffer][INFO] Message buffer created for module with name: user-get-deleted
+[14:53:03][RESTTester][INFO] (user-get-deleted) Sending a GET request on endpoint: http://localhost:8080/users/
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.27.jar!/:11.0.27]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[14:53:03][RESTTester][WARNING] (user-get-deleted) HTTP request returned an error status: 404
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:53:03][MessageBuffer][INFO] Message added to buffer [ Mod: user-get-deleted | Tag: http://localhost:8080/users/ ] Content: 'ERROR: 404'
+[14:53:03][TestSuiteKw][INFO] Test suite 'Testování požadavků pro odstranění' - Test case 'Test odstranění jednoho uživatele' passed
+[14:53:04][MessageBuffer][INFO] Message buffer cleared
+[14:53:04][RESTTester][INFO] (user-delete-one) REST tester [user-delete-one] terminated
+[14:53:04][RESTTester][INFO] (user-get-deleted) REST tester [user-get-deleted] terminated
+[14:53:04][TestSuiteKw][INFO] Test case 'Test odstranění všech uživatelů' starts executing now
+[14:53:04][RESTTester][INFO] (user-delete-all) Sending a DELETE request on endpoint: http://localhost:8080/users
+[14:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: user-delete-all | Tag: http://localhost:8080/users ] Content: '[]'
+[14:53:04][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[14:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Hibernate: select mu1_0.id,mu1_0.email,mu1_0.name,mu1_0.phone_number from users mu1_0'
+[14:53:04][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: '[]'
+[14:53:04][TestSuiteKw][INFO] Test suite 'Testování požadavků pro odstranění' - Test case 'Test odstranění všech uživatelů' passed
+[14:53:04][MessageBuffer][INFO] Message buffer cleared
+[14:53:05][MessageBuffer][INFO] Message buffer cleared
+[14:53:05][RESTTester][INFO] (user-delete-all) REST tester [user-delete-all] terminated
+[14:53:05][RESTTester][INFO] (user-all) REST tester [user-all] terminated
+[14:53:05][RESTTester][INFO] (user-create) REST tester [user-create] terminated
+[14:53:05][MessageBuffer][INFO] Message buffer cleared
+[14:53:05][ExternalProgramRunner][INFO] (default) Termiting external application
+[14:53:05][ProcessManager][INFO] PID (4448) removed from file
+[14:53:05][RESTTester][INFO] (module-1) REST tester [module-1] terminated
+[14:53:05][NATTCore][INFO] Test executing finished
+[14:53:05][NATTCore][INFO] Start generating test report
+[14:53:05][ProcessManager][INFO] PID (4448) removed from file
+[14:53:05][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[14:53:05][TestReportGenerator][INFO] Report saved to file
+[14:53:05][NATTCore][WARNING] Failed test cases: "Test vytvoření uživatele", "Vyhledávání bez filtrů vrátí všechny uživatele", "Filtrování podle jména", "Filtrování podle emailu", "Filtrování podle telefonního čísla", "Kombinace vyhledávacích filtrů", "Test aktualizace uživatele", "Test aktualizace uživatele s neplatnými údaji 1", "Test aktualizace uživatele s neplatnými údaji 2"
+[14:53:05][NATTCore][INFO] Final score: 3,600000
+[14:53:05][NATTCore][ERROR] Testing done. Leaving status: FAILED
