@@ -8,6 +8,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.DeleteMapping;
 
 import java.util.List;
 
@@ -42,5 +44,39 @@ public class UserController {
         MyUser savedUser = userRepository.save(user);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(savedUser);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<MyUser> updateUser(@PathVariable Long id, @RequestBody MyUser updatedUser) {
+        if (!updatedUser.isUserDataValid()) {
+            return ResponseEntity.badRequest().build();
+        }
+
+        return userRepository.findById(id)
+                .map(existingUser -> {
+                    existingUser.setName(updatedUser.getName());
+                    existingUser.setEmail(updatedUser.getEmail());
+                    existingUser.setPhoneNumber(updatedUser.getPhoneNumber());
+
+                    MyUser savedUser = userRepository.save(existingUser);
+                    return ResponseEntity.ok(savedUser);
+                })
+                .orElse(ResponseEntity.notFound().build());
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<MyUser> deleteUser(@PathVariable Long id) {
+        return userRepository.findById(id)
+                .map(user -> {
+                    userRepository.delete(user);
+                    return ResponseEntity.ok(user);
+                })
+                .orElse(ResponseEntity.notFound().build());
+    }
+
+    @DeleteMapping
+    public ResponseEntity<List<MyUser>> deleteAllUsers() {
+        userRepository.deleteAll();
+        return ResponseEntity.ok(List.of());
     }
 }
